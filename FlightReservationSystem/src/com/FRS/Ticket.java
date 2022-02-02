@@ -38,10 +38,10 @@ public class Ticket {
     }
 
     //getters and setters for private attributes
-    public String getPnr() {
+    public String getPNR() {
         return pnr;
     }
-    public void setPnr(String pnr) {
+    public void setPNR(String pnr) {
         this.pnr = pnr;
     }
 
@@ -86,21 +86,16 @@ public class Ticket {
         this.price = price;
     }
 
-    public Flight getFlight() {
+    public Flight getFlightDetails() {
         return flight;
     }
-    public void setFlight(Flight flight) {
-        this.flight = flight;
-    }
 
-    public Passenger getPassenger() {
+    public Passenger getPassengerDetails() {
         return passenger;
     }
-    public void setPassenger(Passenger passenger) {
-        this.passenger = passenger;
-    }
+
     public boolean getCancelled() {
-        return cancelled;
+        return (cancelled?true: false);
     }
     public void setCancelled(boolean cancelled) {
         this.cancelled = cancelled;

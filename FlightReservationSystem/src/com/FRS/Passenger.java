@@ -17,7 +17,7 @@ public class Passenger {
     private Address address;
 
     private static class Contact {
-        String name, phone, email;
+        public String name, phone, email;
 
         public Contact(String name, String phone, String email) {
             this.name = name;
@@ -40,16 +40,19 @@ public class Passenger {
     }
 
     //Required methods
+    public static int getNoOfPassengers() {
+        return idCounter;
+    }
     public int getId() {
         return this.id;
     }
-    public String getAddressDetails() {
-        return address.street + ", " + address.city + ", " + address.state;
+
+    public Address getAddress() {
+        Address ad = new Address(address.street, address.city, address.state);
+        return ad;
     }
-    public String getContactDetails() {
-        return contact.name + ", " + contact.phone + ", " + contact.email;
-    }
-    public static int getPassengerCount() {
-        return idCounter;
+    public Contact getContact() {
+        Contact con = new Contact(contact.name, contact.phone, contact.email);
+        return con;
     }
 }

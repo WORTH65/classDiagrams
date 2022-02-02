@@ -21,35 +21,14 @@ public class TouristTicket extends Ticket {
         this.hotelAddress = hotelAddress;
     }
 
-    public String[] getSelectedTouristLocation() {
+    public String[] getTouristLocation() {
         return selectedTouristLocation;
     }
-    public void setSelectedTouristLocation(String[] selectedTouristLocation) {
+    public void setTouristLocation(String[] selectedTouristLocation) {
         this.selectedTouristLocation = selectedTouristLocation;
     }
 
     //other required methods for the logic
-    public String[] removeTouristLocation(String removeMe) {
-        int index=0;
-        int length = selectedTouristLocation.length - 1;
-        String[] changedArray = new String[length];
-
-        for (int i = 0; i < length; i++) {
-            if (selectedTouristLocation[i].equals(removeMe)) {
-                index = i;
-                break;
-            }
-        }
-
-        for (int i = 0, k = 0; i<=length; i++) {
-            if (i == index) {
-                continue;
-            }
-            changedArray[k++] = selectedTouristLocation[i];
-        }
-
-        return (changedArray);
-    }
     public void addTouristLocation(String addMe) {
         int index = 0;
         for (int i=0; i< selectedTouristLocation.length; i++) {
@@ -61,5 +40,24 @@ public class TouristTicket extends Ticket {
         if (index != 0) {
             selectedTouristLocation[index] = addMe;
         }
+    }
+    public String[] removeTouristLocation(String removeMe) {
+        int index=0;
+        int length = selectedTouristLocation.length - 1;
+        String[] changedArray = new String[length];
+
+        for (int i = 0; i < length; i++) {
+            if (selectedTouristLocation[i].equals(removeMe)) {
+                index = i;
+                break;
+            }
+        }
+        for (int i = 0, k = 0; i<=length; i++) {
+            if (i == index) {
+                continue;
+            }
+            changedArray[k++] = selectedTouristLocation[i];
+        }
+        return (changedArray);
     }
 }

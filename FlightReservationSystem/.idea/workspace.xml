@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80b71fed-61f9-4b54-9047-7c8e94445cd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/FRS/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagrams/FRSClassDiagram.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Diagrams/FRSClassDiagram.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagrams/FRSClassDiagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/FRS/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/FRS/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/FRS/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/FRS/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/FRS/RegularTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/FRS/RegularTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/FRS/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/FRS/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/FRS/TouristTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/FRS/TouristTicket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

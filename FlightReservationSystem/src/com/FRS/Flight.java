@@ -53,6 +53,7 @@ public class Flight {
             return false;
         }
     }
+    //If a seat is booked
     public void book() {
         bookedSeats++;
     }

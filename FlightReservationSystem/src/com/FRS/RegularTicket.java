@@ -15,7 +15,7 @@ public class RegularTicket extends Ticket {
     public String getSpecialServices() {
         return specialServices;
     }
-    public void setSpecialServices(String specialServices) {
+    public void updateSpecialServices(String specialServices) {
         this.specialServices = specialServices;
     }
 }
